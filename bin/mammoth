@@ -29,6 +29,12 @@ parser.addArgument(["--output-format"], {
     help: "Output format."
 });
 
+parser.addArgument(["--image-format"], {
+    defaultValue: "",
+    choices: ["", "png"],
+    help: "Image format."
+});
+
 parser.addArgument(["--style-map"], {
     type: "string",
     help: "File containg a style map."
