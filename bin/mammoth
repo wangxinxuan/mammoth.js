@@ -29,9 +29,9 @@ parser.addArgument(["--output-format"], {
     help: "Output format."
 });
 
-parser.addArgument(["--image-format"], {
-    defaultValue: "",
-    choices: ["", "png"],
+parser.addArgument(["--formula-format"], {
+    defaultValue: "PNG",
+    choices: ["PNG", "SVG"],
     help: "Image format."
 });
 
